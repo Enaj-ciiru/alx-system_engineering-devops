@@ -1,2 +1,2 @@
-#!/bin/blash
+#!/bin/bash
 ls -la
