@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times.
-
-for (( c=1; c<=10; c++ ))
-do
-    echo "Holberton School"
-done
+# Using for loop to print sth 10 times
+for ((i=0; i < 10; i++)); do echo "Best School"; done
