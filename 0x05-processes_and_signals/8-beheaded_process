@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Use kill()
+kill -9 "$(pgrep -f "7-highlander")"
