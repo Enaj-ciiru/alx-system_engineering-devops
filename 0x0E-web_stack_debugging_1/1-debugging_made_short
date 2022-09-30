@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Replace nginx configuration file with default settings
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
+service nginx restart
+rm /run/nginx.pid
